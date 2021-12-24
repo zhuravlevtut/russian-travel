@@ -1,0 +1,22 @@
+.section_narrow {
+    box-sizing: border-box;
+    width: calc(100% - 100px*2);
+}
+
+@media screen and (max-width: 1152px) {
+    .section_narrow {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 896px) {
+    .section_narrow {
+        
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .section_narrow {
+        padding: 0;
+    }
+
+}

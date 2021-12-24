@@ -1,0 +1,31 @@
+.intro__subtitle {
+    margin: 0 0 33px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    line-height: 26.08px;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 1152px) {
+    .intro__subtitle {
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro__subtitle {
+        max-width: 100%;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .intro__subtitle {
+        max-width: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

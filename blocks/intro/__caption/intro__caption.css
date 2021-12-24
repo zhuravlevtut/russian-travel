@@ -1,0 +1,34 @@
+.intro__caption {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+    max-width: 690px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1152px) {
+    .intro__caption {
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .intro__caption {
+        max-width: 720px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .intro__caption {
+        max-width: 288px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

@@ -1,0 +1,36 @@
+.lead__title {
+    margin: auto;
+    text-align: center;
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+    max-width: 720px;
+    font-family: Inter;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 1152px) {
+    .lead__title {
+        padding-right: 48px;
+        padding-left: 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .lead__title {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 16px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+}
+

@@ -1,0 +1,35 @@
+.place__item {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 48px;
+    grid-template-columns: repeat(2, minmax(216px, max-content));
+    grid-template-rows: repeat(auto-fit, minmax(35px, 1fr));
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1152px) {
+    .place__item {
+        column-gap: 32px;
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .place__item {
+        column-gap: 28px;
+        margin-bottom: 73px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .place__item {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+        margin-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
