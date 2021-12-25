@@ -13,4 +13,4 @@
     Адаптивная вёрстка (desktop first);  
 
 ## 3. Ссылка на проект:
-    https://zhuravlevtut.github.io/russian-travel/
+    [https://zhuravlevtut.github.io/russian-travel/]
